@@ -4,12 +4,12 @@
 - **Group Name:** Group 8
 - **Repository Link:** [Student Enrollment System - Group 8](https://github.com/Ganish-lab/Student-Enrollment-System--Group-8)
 - **Group Members & Unique IDs:**
-  - 1: [168440]
-  - 2: [168120]
-  - 3: [169343]
-  - 4: [164014]
-  - 5: [170253]
-  - 6: [170389]
+  - 1: 168440
+  - 2: 168120
+  - 3: 169343
+  - 4: 164014
+  - 5: 170253
+  - 6: 170389
 
 ---
 
