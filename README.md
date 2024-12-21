@@ -38,14 +38,11 @@ The **Student Enrollment System** is a web-based application designed to manage 
    - Fields: `id`, `student`, `course`, `enrollment_date`.
    - Represents the many-to-many relationship between students and courses.
 
-5. **Department**:
-   - Fields: `id`, `name`, `head`.
-   - A department can oversee multiple courses.
 
 #### **Relationships:**
 - **One-to-Many**:
   - `Instructor` → `Course`
-  - `Department` → `Course`
+ 
 - **Many-to-Many**:
   - `Student` ↔ `Course` (via `Enrollment`)
 
@@ -68,8 +65,6 @@ The **Student Enrollment System** is a web-based application designed to manage 
   - Role: Manages student-course enrollments.
   - Includes listing all enrollments for a specific student or course.
 
-- **DepartmentViewSet**:
-  - Role: CRUD operations for departments.
 
 ---
 
@@ -85,8 +80,7 @@ The **Student Enrollment System** is a web-based application designed to manage 
     - Ensures the instructor exists before assigning.
   - **EnrollmentSerializer**:
     - Validates unique combinations of `student` and `course`.
-  - **DepartmentSerializer**:
-    - Ensures a valid `head` is assigned to the department.
+
 
 ---
 
@@ -97,7 +91,7 @@ The **Student Enrollment System** is a web-based application designed to manage 
   - `/instructors/`: Manage instructors.
   - `/courses/`: Manage courses.
   - `/enrollments/`: Manage student enrollments.
-  - `/departments/`: Manage departments.
+ 
 
 All URL patterns use RESTful conventions for CRUD operations.
 
@@ -110,7 +104,7 @@ All URL patterns use RESTful conventions for CRUD operations.
   2. **POST /students/**: Add a new student.
   3. **PUT /students/{id}/**: Update student details.
   4. **DELETE /students/{id}/**: Remove a student.
-  5. Repeat similar tests for instructors, courses, enrollments, and departments.
+  5. Repeat similar tests for instructors, courses and enrollments
 
 #### **Automated Testing**
 - **Test Cases**:
