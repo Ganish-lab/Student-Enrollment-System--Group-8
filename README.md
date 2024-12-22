@@ -139,31 +139,27 @@ This screenshot shows the automated test results:
 This screenshot shows captured views:
 ![Capture View](screenshots/Capture%20view.PNG)
 
-### 6. Delete Operation
-This screenshot shows the delete operation:
-![Delete](screenshots/delete.PNG)
-
-### 7. Delete Success
+### 6. Delete Success
 This screenshot confirms the successful deletion:
 ![Delete Success](screenshots/delete%20success.PNG)
 
-### 8. Deleting a Record
+### 7. Deleting a Record
 This screenshot shows the process of deleting a record:
 ![Deleting](screenshots/deleting.PNG)
 
-### 9. Enrollment
+### 8. Enrollment
 This screenshot shows enrollment functionality:
 ![Enrollment](screenshots/enrol.PNG)
 
-### 10. Enrollment Overview
+### 9. Enrollment Overview
 This screenshot provides a view of the enrollment screen:
 ![Enrollment Overview](screenshots/enrollment.PNG)
 
-### 11. Student List
+### 10. Student List
 This screenshot displays the list of students:
 ![Students](screenshots/students.PNG)
 
-### 12. Success Message
+### 11. Success Message
 This screenshot shows the success message:
 ![Success Message](screenshots/succes.PNG)
 
