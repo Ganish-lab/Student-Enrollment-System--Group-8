@@ -104,7 +104,7 @@ All URL patterns use RESTful conventions for CRUD operations.
   2. **POST /students/**: Add a new student.
   3. **PUT /students/{id}/**: Update student details.
   4. **DELETE /students/{id}/**: Remove a student.
-  5. Repeat similar tests for instructors, courses and enrollments
+  
 
 #### **Automated Testing**
 - **Test Cases**:
@@ -117,6 +117,56 @@ All URL patterns use RESTful conventions for CRUD operations.
     ```bash
     python manage.py test
     ```
+    ## Testing Evidence
+
+### 1. Add Student
+This screenshot shows the process of adding a student:
+![Add Student](screenshots/add%20student.PNG)
+
+### 2. Adding Courses
+This screenshot shows the process of adding a course:
+![Adding Courses](screenshots/adding%20courses.PNG)
+
+### 3. Age Validation
+This screenshot demonstrates the age validation:
+![Age Validation](screenshots/age.PNG)
+
+### 4. Automated Tests
+This screenshot shows the automated test results:
+![Automated Tests](screenshots/automated%20test.PNG)
+
+### 5. Capturing Views
+This screenshot shows captured views:
+![Capture View](screenshots/Capture%20view.PNG)
+
+### 6. Delete Operation
+This screenshot shows the delete operation:
+![Delete](screenshots/delete.PNG)
+
+### 7. Delete Success
+This screenshot confirms the successful deletion:
+![Delete Success](screenshots/delete%20success.PNG)
+
+### 8. Deleting a Record
+This screenshot shows the process of deleting a record:
+![Deleting](screenshots/deleting.PNG)
+
+### 9. Enrollment
+This screenshot shows enrollment functionality:
+![Enrollment](screenshots/enrol.PNG)
+
+### 10. Enrollment Overview
+This screenshot provides a view of the enrollment screen:
+![Enrollment Overview](screenshots/enrollment.PNG)
+
+### 11. Student List
+This screenshot displays the list of students:
+![Students](screenshots/students.PNG)
+
+### 12. Success Message
+This screenshot shows the success message:
+![Success Message](screenshots/succes.PNG)
+
 
 
 
