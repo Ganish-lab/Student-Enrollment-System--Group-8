@@ -23,7 +23,7 @@ class EnrollmentViewSet(viewsets.ModelViewSet):
     """
     queryset = Enrollment.objects.all()
     serializer_class = EnrollmentSerializer
-  class InstructorViewSet(viewsets.ModelViewSet):
+class InstructorViewSet(viewsets.ModelViewSet):
     """
     A viewset for viewing and editing instructor instances.
     """
