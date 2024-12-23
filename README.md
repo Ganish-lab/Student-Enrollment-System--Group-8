@@ -91,7 +91,7 @@ The **Student Enrollment System** is a web-based application designed to manage 
   - `/instructors/`: Manage instructors.
   - `/courses/`: Manage courses.
   - `/enrollments/`: Manage student enrollments.
-  - '/admin/'/:Access the Django Admin Panel for managing all models
+  - '/admin/':Access the Django Admin Panel for managing all models
  
 Base URL: http://127.0.0.1:8000
 All URL patterns use RESTful conventions for CRUD operations.
